@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pushster&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  font-family: "Comfortaa";
+}
+
+body {
+  background: black;
+}
+
+.card {
+  border-radius: 30px;
+  margin: 30px;
+  background: linear-gradient(to bottom right, #a1a2a3, #b3b6b5, #bec0c2);
+}
+.card:hover {
+  box-shadow: 2px 2px 15px 12px #d9534f;
+  transition: 500ms;
+}
+
+.card img {
+  padding: 10px;
+  max-height: 334px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body a h5 {
+  font-size: 15px;
+}
