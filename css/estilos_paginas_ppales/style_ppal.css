@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,32 +10,53 @@
 
 body {
   background: black;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
 }
 
 /* cards */
 
 .container {
-  margin-top: 100px;
+  margin-top: 200px;
 }
-.card {
+.card_A {
   border-radius: 15px;
+  background: linear-gradient(to bottom right, #fcf6ba, #fbf5b7, #aa771c);
+  height: 400px;
+}
+
+.card_B {
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #a1a2a3, #b3b6b5, #bec0c2);
+  height: 400px;
+}
+
+.card_C {
+  border-radius: 15px;
+
+  height: 400px;
 }
 
 .card_A:hover {
   box-shadow: 2px 2px 15px 12px #0275d8;
 }
 
-.cardB:hover {
+.card_B:hover {
   box-shadow: 2px 2px 15px 12px#d9534f;
 }
 
-.cardC:hover {
-  box-shadow: 2px 2px 15px 12px #f0ad4e;
+.card_C:hover {
+  box-shadow: 2px 2px 15px 12px #5cb85c;
 }
 
 .card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  height: 295px;
 }
 
 .card-body {
