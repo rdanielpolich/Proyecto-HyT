@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pushster&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Comfortaa";
+}
+body {
+  background: linear-gradient(to bottom right, #434343, #000000);
+}
+
+main {
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+}
+
+.card {
+  border-radius: 15px;
+  border: transparent;
+  width: 130px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.jugador {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nombre_dorado {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2px;
+  background: linear-gradient(to bottom right, #fcf6ba, #fbf5b7, #aa771c);
+  color: black;
+}
+
+.nombre_negro {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2px;
+  background-color: black;
+}
+
+.nombre_plata {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2px;
+  background: linear-gradient(to bottom right, #a1a2a3, #b3b6b5, #bec0c2);
+  color: black;
+}
+
+.arquero:hover {
+  box-shadow: 0px 0px 20px 9px #fff12a;
+}
+
+.dec {
+  box-shadow: 0px 0px 20px 9px #227aff;
+}
+
+.medio {
+  box-shadow: 0px 0px 20px 9px #21d821;
+}
+
+.delantero {
+  box-shadow: 0px 0px 20px 9px #ff0303;
+}
+
+.row {
+  margin-right: 0;
+}
+
+span {
+  font-size: 10px;
+}
